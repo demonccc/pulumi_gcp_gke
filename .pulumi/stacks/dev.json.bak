@@ -1,0 +1,54 @@
+{
+    "version": 3,
+    "checkpoint": {
+        "stack": "dev",
+        "latest": {
+            "manifest": {
+                "time": "2021-03-03T17:11:42.108746147-03:00",
+                "magic": "b1435d3d77d02af2adb0ad112726773042d6e59fde3035eaae40870fc584c496",
+                "version": "v2.21.0"
+            },
+            "secrets_providers": {
+                "type": "passphrase",
+                "state": {
+                    "salt": "v1:XC7BX0fi/q0=:v1:n+6MVcnI7kH5y1ZB:8KGxiEQX192aKpfj4k1xamY688DArg=="
+                }
+            },
+            "resources": [
+                {
+                    "urn": "urn:pulumi:dev::azure::pulumi:providers:azure::default_3_48_0",
+                    "custom": true,
+                    "id": "7eaec1bd-32e7-44f6-b087-7ca5ce2a8d0c",
+                    "type": "pulumi:providers:azure",
+                    "inputs": {
+                        "location": "brazilsouth",
+                        "version": "3.48.0"
+                    },
+                    "outputs": {
+                        "location": "brazilsouth",
+                        "version": "3.48.0"
+                    }
+                }
+            ],
+            "pending_operations": [
+                {
+                    "resource": {
+                        "urn": "urn:pulumi:dev::azure::pulumi:providers:azure::default_3_48_0",
+                        "custom": true,
+                        "id": "7eaec1bd-32e7-44f6-b087-7ca5ce2a8d0c",
+                        "type": "pulumi:providers:azure",
+                        "inputs": {
+                            "location": "brazilsouth",
+                            "version": "3.48.0"
+                        },
+                        "outputs": {
+                            "location": "brazilsouth",
+                            "version": "3.48.0"
+                        }
+                    },
+                    "type": "deleting"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "kind": "update",
+    "startTime": 1614801973,
+    "message": "",
+    "environment": {
+        "exec.kind": "cli"
+    },
+    "config": {
+        "azure:location": "brazilsouth"
+    },
+    "version": 0,
+    "result": "succeeded",
+    "endTime": 1614802008,
+    "resourceChanges": {
+        "create": 2,
+        "same": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "kind": "update",
+    "startTime": 1614684749,
+    "message": "",
+    "environment": {
+        "exec.kind": "cli"
+    },
+    "config": {
+        "gcp:project": "devops-gcp"
+    },
+    "version": 0,
+    "result": "failed",
+    "endTime": 1614684751,
+    "resourceChanges": {
+        "same": 1
+    }
+}

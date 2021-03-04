@@ -1,0 +1,85 @@
+{
+    "version": 3,
+    "checkpoint": {
+        "stack": "dev",
+        "latest": {
+            "manifest": {
+                "time": "2021-03-02T12:07:53.521071287-03:00",
+                "magic": "b1435d3d77d02af2adb0ad112726773042d6e59fde3035eaae40870fc584c496",
+                "version": "v2.21.0"
+            },
+            "secrets_providers": {
+                "type": "passphrase",
+                "state": {
+                    "salt": "v1:2xlKZiQG4rM=:v1:5JFXnRgRifpBG7Vs:A07dKXi1jPkp0iIMklu6wlOMTLglnQ=="
+                }
+            },
+            "resources": [
+                {
+                    "urn": "urn:pulumi:dev::gcp::pulumi:pulumi:Stack::gcp-dev",
+                    "custom": false,
+                    "type": "pulumi:pulumi:Stack",
+                    "outputs": {
+                        "bucketName": "gs://my-bucket-61f364b"
+                    }
+                },
+                {
+                    "urn": "urn:pulumi:dev::gcp::pulumi:providers:gcp::default_4_13_0",
+                    "custom": true,
+                    "id": "dfdb0c90-6e1c-4231-9560-109d7e6baceb",
+                    "type": "pulumi:providers:gcp",
+                    "inputs": {
+                        "project": "devops-gcp-luifa",
+                        "version": "4.13.0"
+                    },
+                    "outputs": {
+                        "project": "devops-gcp-luifa",
+                        "version": "4.13.0"
+                    }
+                },
+                {
+                    "urn": "urn:pulumi:dev::gcp::gcp:storage/bucket:Bucket::my-bucket",
+                    "custom": true,
+                    "id": "my-bucket-61f364b",
+                    "type": "gcp:storage/bucket:Bucket",
+                    "inputs": {
+                        "__defaults": [
+                            "forceDestroy",
+                            "location",
+                            "name",
+                            "storageClass"
+                        ],
+                        "forceDestroy": false,
+                        "location": "US",
+                        "name": "my-bucket-61f364b",
+                        "storageClass": "STANDARD"
+                    },
+                    "outputs": {
+                        "bucketPolicyOnly": false,
+                        "cors": [],
+                        "defaultEventBasedHold": false,
+                        "encryption": null,
+                        "forceDestroy": false,
+                        "id": "my-bucket-61f364b",
+                        "labels": {},
+                        "lifecycleRules": [],
+                        "location": "US",
+                        "logging": null,
+                        "name": "my-bucket-61f364b",
+                        "project": "devops-gcp-luifa",
+                        "requesterPays": false,
+                        "retentionPolicy": null,
+                        "selfLink": "https://www.googleapis.com/storage/v1/b/my-bucket-61f364b",
+                        "storageClass": "STANDARD",
+                        "uniformBucketLevelAccess": false,
+                        "url": "gs://my-bucket-61f364b",
+                        "versioning": null,
+                        "website": null
+                    },
+                    "parent": "urn:pulumi:dev::gcp::pulumi:pulumi:Stack::gcp-dev",
+                    "provider": "urn:pulumi:dev::gcp::pulumi:providers:gcp::default_4_13_0::dfdb0c90-6e1c-4231-9560-109d7e6baceb"
+                }
+            ]
+        }
+    }
+}

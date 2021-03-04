@@ -1,0 +1,17 @@
+{
+    "kind": "destroy",
+    "startTime": 1614802243,
+    "message": "",
+    "environment": {
+        "exec.kind": "cli"
+    },
+    "config": {
+        "azure:location": "brazilsouth"
+    },
+    "version": 0,
+    "result": "succeeded",
+    "endTime": 1614802302,
+    "resourceChanges": {
+        "delete": 3
+    }
+}

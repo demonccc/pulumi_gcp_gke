@@ -1,0 +1,4 @@
+encryptionsalt: v1:2xlKZiQG4rM=:v1:5JFXnRgRifpBG7Vs:A07dKXi1jPkp0iIMklu6wlOMTLglnQ==
+config:
+  gcp:project: devops-gcp-luifa
+  gcp:zone: us-west1-a

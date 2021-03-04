@@ -1,0 +1,929 @@
+{
+    "version": 3,
+    "checkpoint": {
+        "stack": "dev",
+        "latest": {
+            "manifest": {
+                "time": "2021-03-02T13:55:14.605004058-03:00",
+                "magic": "b1435d3d77d02af2adb0ad112726773042d6e59fde3035eaae40870fc584c496",
+                "version": "v2.21.0"
+            },
+            "secrets_providers": {
+                "type": "passphrase",
+                "state": {
+                    "salt": "v1:2xlKZiQG4rM=:v1:5JFXnRgRifpBG7Vs:A07dKXi1jPkp0iIMklu6wlOMTLglnQ=="
+                }
+            },
+            "resources": [
+                {
+                    "urn": "urn:pulumi:dev::gcp::pulumi:pulumi:Stack::gcp-dev",
+                    "custom": false,
+                    "type": "pulumi:pulumi:Stack",
+                    "outputs": {
+                        "clusterName": "helloworld-eb5f7b8",
+                        "deploymentName": "helloworld-kpt1wasl",
+                        "kubeconfig": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:Wi1GCCj//bKeA8KW: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"
+                        },
+                        "namespaceName": "helloworld-bsh36ixp",
+                        "serviceName": "helloworld-bu6hjstm",
+                        "servicePublicIP": "34.82.52.64"
+                    }
+                },
+                {
+                    "urn": "urn:pulumi:dev::gcp::pulumi:providers:gcp::default_4_13_0",
+                    "custom": true,
+                    "id": "dfdb0c90-6e1c-4231-9560-109d7e6baceb",
+                    "type": "pulumi:providers:gcp",
+                    "inputs": {
+                        "project": "devops-gcp-luifa",
+                        "version": "4.13.0",
+                        "zone": "us-west1-a"
+                    },
+                    "outputs": {
+                        "project": "devops-gcp-luifa",
+                        "version": "4.13.0",
+                        "zone": "us-west1-a"
+                    }
+                },
+                {
+                    "urn": "urn:pulumi:dev::gcp::gcp:container/cluster:Cluster::helloworld",
+                    "custom": true,
+                    "id": "projects/devops-gcp-luifa/locations/us-west1-a/clusters/helloworld-eb5f7b8",
+                    "type": "gcp:container/cluster:Cluster",
+                    "inputs": {
+                        "__defaults": [
+                            "enableBinaryAuthorization",
+                            "enableIntranodeVisibility",
+                            "enableKubernetesAlpha",
+                            "enableLegacyAbac",
+                            "enableShieldedNodes",
+                            "enableTpu",
+                            "name",
+                            "network"
+                        ],
+                        "enableBinaryAuthorization": false,
+                        "enableIntranodeVisibility": false,
+                        "enableKubernetesAlpha": false,
+                        "enableLegacyAbac": false,
+                        "enableShieldedNodes": false,
+                        "enableTpu": false,
+                        "initialNodeCount": 2,
+                        "minMasterVersion": "1.18.16-gke.300",
+                        "name": "helloworld-eb5f7b8",
+                        "network": "default",
+                        "nodeConfig": {
+                            "__defaults": [
+                                "preemptible"
+                            ],
+                            "machineType": "n1-standard-1",
+                            "oauthScopes": [
+                                "https://www.googleapis.com/auth/compute",
+                                "https://www.googleapis.com/auth/devstorage.read_only",
+                                "https://www.googleapis.com/auth/logging.write",
+                                "https://www.googleapis.com/auth/monitoring"
+                            ],
+                            "preemptible": false
+                        },
+                        "nodeVersion": "1.18.16-gke.300"
+                    },
+                    "outputs": {
+                        "__meta": "{\"e2bfb730-ecaa-11e6-8f88-34363bc7c4c0\":{\"create\":2400000000000,\"delete\":2400000000000,\"read\":2400000000000,\"update\":3600000000000},\"schema_version\":\"1\"}",
+                        "addonsConfig": {
+                            "cloudrunConfig": null,
+                            "configConnectorConfig": null,
+                            "dnsCacheConfig": null,
+                            "gcePersistentDiskCsiDriverConfig": {
+                                "enabled": true
+                            },
+                            "horizontalPodAutoscaling": null,
+                            "httpLoadBalancing": null,
+                            "istioConfig": null,
+                            "kalmConfig": null,
+                            "networkPolicyConfig": {
+                                "disabled": true
+                            }
+                        },
+                        "authenticatorGroupsConfig": null,
+                        "clusterAutoscaling": {
+                            "autoProvisioningDefaults": null,
+                            "autoscalingProfile": "BALANCED",
+                            "enabled": false,
+                            "resourceLimits": []
+                        },
+                        "clusterIpv4Cidr": "10.68.0.0/14",
+                        "clusterTelemetry": {
+                            "type": "ENABLED"
+                        },
+                        "confidentialNodes": null,
+                        "databaseEncryption": {
+                            "keyName": "",
+                            "state": "DECRYPTED"
+                        },
+                        "datapathProvider": "",
+                        "defaultSnatStatus": {
+                            "disabled": false
+                        },
+                        "description": "",
+                        "enableBinaryAuthorization": false,
+                        "enableIntranodeVisibility": false,
+                        "enableKubernetesAlpha": false,
+                        "enableLegacyAbac": false,
+                        "enableShieldedNodes": false,
+                        "enableTpu": false,
+                        "endpoint": "34.82.181.28",
+                        "id": "projects/devops-gcp-luifa/locations/us-west1-a/clusters/helloworld-eb5f7b8",
+                        "initialNodeCount": 2,
+                        "instanceGroupUrls": [
+                            "https://www.googleapis.com/compute/beta/projects/devops-gcp-luifa/zones/us-west1-a/instanceGroups/gke-helloworld-eb5f7b8-default-pool-adedc7a0-grp"
+                        ],
+                        "ipAllocationPolicy": null,
+                        "labelFingerprint": "a9dc16a7",
+                        "location": "us-west1-a",
+                        "loggingService": "logging.googleapis.com/kubernetes",
+                        "maintenancePolicy": null,
+                        "masterAuth": {
+                            "clientCertificate": "",
+                            "clientCertificateConfig": {
+                                "issueClientCertificate": false
+                            },
+                            "clientKey": {
+                                "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                                "ciphertext": "v1:sqYWlJuH/qywJklp:mP6e++/1qly7Z2H3rU+AKDCt"
+                            },
+                            "clusterCaCertificate": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLekNDQWhPZ0F3SUJBZ0lSQU94V0NOMUtRMkJYMFBOQ1pQb2cydFF3RFFZSktvWklodmNOQVFFTEJRQXcKTHpFdE1Dc0dBMVVFQXhNa05XTTJaVFZsWlRjdE9EaGpZUzAwWVdSaUxUazNNbVF0WkRnMU5EWTJaV0ZpWVRjegpNQjRYRFRJeE1ETXdNakUxTkRjMU0xb1hEVEkyTURNd01URTJORGMxTTFvd0x6RXRNQ3NHQTFVRUF4TWtOV00yClpUVmxaVGN0T0RoallTMDBZV1JpTFRrM01tUXRaRGcxTkRZMlpXRmlZVGN6TUlJQklqQU5CZ2txaGtpRzl3MEIKQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBeUFKZHF6U0JUeVRsa0hTREFKelVVd21ZTkRzRFlWaG1URk83aFFsZApnMS9XQXN6eEFTeFFqaExGcEhMWGZNckl1RjA2NVVucHJyeG51cUJoNXFSTnVvcEI0NmtsbEhYOE9pdkRNamViClZxTjNiNGJveVVjTlB4T0lpN1cyTExuTklnTXNQVkgvSGsrM1pZbURicE1IaC8wNEZOcjY5NklKb3F1NU1GT3AKMFhGdEF3RXFnaVhpamorM2I2amN3M0IwbXlxbW9zVzhkaWNEdlZJdTNPOHdSUnprdkJFTEZKZ3V1cDZNOVlpawp2bFVOd1BTdHhNdjU3Q1JjaTdQS245RXBZQTFrOGpHT2xJaXdyWGtNWFphMTRuaXB4c2QySXlqK1UramdZTnhuCitqeEFoZHI2M3ZRcFZvR1BFVkVNM0ZIcklGL1l2Zkswckw4WXFqSlVzM0R2MXdJREFRQUJvMEl3UURBT0JnTlYKSFE4QkFmOEVCQU1DQWdRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVS9XQmI5TGpQQjJzYgp0MWIySm9qSFZoUTU2WDR3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUVoK0ZyQkpkM3UvZU1WWCtUb2xtN3Z3Ck9DbGR1eVJWaGxhRlFWc1M0SnNDZm45TzlmbFJFVXlzN1ZHTzNvT2ErSVhtK2JKeHZPUXJGTVJ5c3ZKMVJMOEwKTThKYjI0cWxrUXhhcXEzR0dlTmR4WjJ6Q0xucXp5TEhoUE55QUxMSGRYaVltbk9KaGRxN2NkWlFsT2xVU0JDaAowaFVTdEgzTVdKYUdzUEFVSGdxTXRYbnlTSjYwMkVzblJiMTZ5cFdoYWZZcGNZWWcxb1RxbDVHb2QzbG1ZZWFPCk9PQkh1TXVDcW9WRStlTnpuaDlaTkZha3R2RlNTU0dybXRyZWVXdmdaY0VXOUdRRzdncFFKcjNETDd0c0w5TG8KTEdtN3Z6K01PYzdCMVp0N2xnNUpIS1VMVFlYSGhMbGVraFU3cnBqeXdjei9tRk1qZzNVRG9GNWl4elIrZmQ4PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==",
+                            "password": {
+                                "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                                "ciphertext": "v1:Vytwep9T11ZwWmQd:TPX33yH0hVHB95ZSqNeyy4QT"
+                            },
+                            "username": ""
+                        },
+                        "masterAuthorizedNetworksConfig": null,
+                        "masterVersion": "1.18.16-gke.300",
+                        "minMasterVersion": "1.18.16-gke.300",
+                        "monitoringService": "monitoring.googleapis.com/kubernetes",
+                        "name": "helloworld-eb5f7b8",
+                        "network": "projects/devops-gcp-luifa/global/networks/default",
+                        "networkPolicy": {
+                            "enabled": false,
+                            "provider": "PROVIDER_UNSPECIFIED"
+                        },
+                        "networkingMode": "ROUTES",
+                        "nodeConfig": {
+                            "bootDiskKmsKey": "",
+                            "diskSizeGb": 100,
+                            "diskType": "pd-standard",
+                            "guestAccelerators": [],
+                            "imageType": "COS",
+                            "kubeletConfig": null,
+                            "labels": {},
+                            "linuxNodeConfig": null,
+                            "localSsdCount": 0,
+                            "machineType": "n1-standard-1",
+                            "metadata": {
+                                "disable-legacy-endpoints": "true"
+                            },
+                            "minCpuPlatform": "",
+                            "oauthScopes": [
+                                "https://www.googleapis.com/auth/monitoring",
+                                "https://www.googleapis.com/auth/devstorage.read_only",
+                                "https://www.googleapis.com/auth/logging.write",
+                                "https://www.googleapis.com/auth/compute"
+                            ],
+                            "preemptible": false,
+                            "sandboxConfig": null,
+                            "serviceAccount": "default",
+                            "shieldedInstanceConfig": {
+                                "enableIntegrityMonitoring": true,
+                                "enableSecureBoot": false
+                            },
+                            "tags": [],
+                            "taints": [],
+                            "workloadMetadataConfig": null
+                        },
+                        "nodeLocations": [],
+                        "nodePools": [
+                            {
+                                "autoscaling": null,
+                                "initialNodeCount": 2,
+                                "instanceGroupUrls": [
+                                    "https://www.googleapis.com/compute/v1/projects/devops-gcp-luifa/zones/us-west1-a/instanceGroupManagers/gke-helloworld-eb5f7b8-default-pool-adedc7a0-grp"
+                                ],
+                                "management": {
+                                    "autoRepair": true,
+                                    "autoUpgrade": true
+                                },
+                                "maxPodsPerNode": 0,
+                                "name": "default-pool",
+                                "namePrefix": "",
+                                "nodeConfig": {
+                                    "bootDiskKmsKey": "",
+                                    "diskSizeGb": 100,
+                                    "diskType": "pd-standard",
+                                    "guestAccelerators": [],
+                                    "imageType": "COS",
+                                    "kubeletConfig": null,
+                                    "labels": {},
+                                    "linuxNodeConfig": null,
+                                    "localSsdCount": 0,
+                                    "machineType": "n1-standard-1",
+                                    "metadata": {
+                                        "disable-legacy-endpoints": "true"
+                                    },
+                                    "minCpuPlatform": "",
+                                    "oauthScopes": [
+                                        "https://www.googleapis.com/auth/monitoring",
+                                        "https://www.googleapis.com/auth/devstorage.read_only",
+                                        "https://www.googleapis.com/auth/logging.write",
+                                        "https://www.googleapis.com/auth/compute"
+                                    ],
+                                    "preemptible": false,
+                                    "sandboxConfig": null,
+                                    "serviceAccount": "default",
+                                    "shieldedInstanceConfig": {
+                                        "enableIntegrityMonitoring": true,
+                                        "enableSecureBoot": false
+                                    },
+                                    "tags": [],
+                                    "taints": [],
+                                    "workloadMetadataConfig": null
+                                },
+                                "nodeCount": 2,
+                                "nodeLocations": [
+                                    "us-west1-a"
+                                ],
+                                "upgradeSettings": {
+                                    "maxSurge": 1,
+                                    "maxUnavailable": 0
+                                },
+                                "version": "1.18.16-gke.300"
+                            }
+                        ],
+                        "nodeVersion": "1.18.16-gke.300",
+                        "notificationConfig": {
+                            "pubsub": {
+                                "enabled": false,
+                                "topic": ""
+                            }
+                        },
+                        "podSecurityPolicyConfig": {
+                            "enabled": false
+                        },
+                        "privateClusterConfig": null,
+                        "project": "devops-gcp-luifa",
+                        "releaseChannel": {
+                            "channel": "UNSPECIFIED"
+                        },
+                        "resourceLabels": {},
+                        "resourceUsageExportConfig": null,
+                        "selfLink": "https://container.googleapis.com/v1beta1/projects/devops-gcp-luifa/zones/us-west1-a/clusters/helloworld-eb5f7b8",
+                        "servicesIpv4Cidr": "10.71.240.0/20",
+                        "subnetwork": "projects/devops-gcp-luifa/regions/us-west1/subnetworks/default",
+                        "tpuIpv4CidrBlock": "",
+                        "verticalPodAutoscaling": null,
+                        "workloadIdentityConfig": null
+                    },
+                    "parent": "urn:pulumi:dev::gcp::pulumi:pulumi:Stack::gcp-dev",
+                    "provider": "urn:pulumi:dev::gcp::pulumi:providers:gcp::default_4_13_0::dfdb0c90-6e1c-4231-9560-109d7e6baceb",
+                    "propertyDependencies": {
+                        "initialNodeCount": null,
+                        "minMasterVersion": null,
+                        "nodeConfig": null,
+                        "nodeVersion": null
+                    }
+                },
+                {
+                    "urn": "urn:pulumi:dev::gcp::pulumi:providers:kubernetes::helloworld",
+                    "custom": true,
+                    "id": "7524c1b5-5b1f-4497-81f7-402745d59a74",
+                    "type": "pulumi:providers:kubernetes",
+                    "inputs": {
+                        "kubeconfig": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:dBuDwGuAYTvx27Lq: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"
+                        },
+                        "version": "2.8.2"
+                    },
+                    "outputs": {
+                        "kubeconfig": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:BNzvdmKHwohqd59l:k1fiO0pP7KAMEU6DPhRs+H8LCvTm11vdPOdfC53HN3VO/ha9l3ZEfQdx+hjW/JtMrLZ97EVw0Ba/cjU+d8tXctIS2pZP8tx9g9eXNj7BoliH9NzrW1jCdU9gTGIXnY19XheOZzyOUSiDLJFSWw+CD+jbORlBcjxxPnIIeVA6oZ2o+2StnqNnOB+4/Re65VNqW4rUFARGQt4wwYYQJCDA1bs2xPbVpDkp4U+3IPL69W8bqeLs5Bxs8RehdSQzEcJHeujJ8/JvWXjWziFlsjkrXCuNAIdCZn5cIIjLkp+hqSfU6sLEZ4yF9Q+NjngNIvcA2J5NZ3NViw+0Cj6qOeZ+xyUFt8z0m1bkd/TCytIG7jKZaX8U6/tzlzyNY9XdVLsN4dzl4KlGCeC/5QBxULXAACXc8Y5qudVgeVAsqC+AD0Db0EycB9t2wKJ5l/tKDzGBxduxOXwliqL/rLxuHO+CMojZWORgyAUSatfrY2fnu25COebp0VvfnFHJEaj4r1A0HFaiSSG6fXzDggiIOxMOp1QoRDUBRi8CAUfZlNS0PAmcC04Pz+yaHkhFyBJ1uJHI9agUYJPalKtCNzP6b0DSeNGYdsB9bg1OwYwUI/yRQ40a9G8YHwvA4gLNLC4j/q1zXA/1LAIdNaACfkEJJtOpCtIfVYsm4R9l/lXuZTgmH4gFesAQrFL0yZhkpk78gmRfOaa3+bY2mcTAszIO+G0Be1sJhmIQqkYc8nX8fQ3UMVnSWflQifW6S2LDW6QoBWvw78+0dvb5kdSVcC8Soy/4x2qsV5hHi2fg9tqOvCuUq+KNGUKLW/abt5wVyCaZvs+WbdQDDfqJGr4UcebPmRGswGbQiOYAifs7YBUYao5GSLRt/mEfBRd2Rqpu/qDEn22iodJ9EYqiWXe2fwyMNUh5bxcZUx27jv84dx1gRYUehMPzvLhAZcLje5K6EiwXx7TXlaYpfAT3kVJTaEvjTGyBnYZZZMH9t9FBMTUjcg0VQ5nwYh34xMt7WLhm1jesAa9rbD6UxEsX0aQT/HgtXndg4yf14ODdmGFZBiVwa4RTFRctKnCMbIFTV2oo0qdFcyiEbo17aSqTIDtBZ+AUM2NdDoGi5qwdz2ZSoSqSj5P5fZ02aoWmmsgZkgyi+gWcSfyMNdG0kZ+ceAJLmeMNSgu450crAUC3yP85lpcwiOsxNY9ZTCkbqjLgjC/S0CW5FUNgf2EjsAWKFpg1WpEjzp7ICYe/XExCs7Ax0MlEgTqNuUEMpij7Rfq8N8Tq4uBYbEd6XLeRJkKfMpEdk+qb5KvJEJdPsUpkGWz9dBYem//0f6aNdOeZDvguOHEPyY0jCRin68fM8K7w8FuIJYMraPY6oYoYggxWJH+lt5QETxqBR92BSaQd4uCQFP+VDSOUIfXJl9LYGeXLnuJDR1sGEuBe3JV7DCWvs8vfqE8nOubgyV44+K9dByahNyQxJJiqLH5U8gIkUJKhFjNzH3QOLXtoA61Y2tMof98WnpJ4DU/ltzFcORvtatZFTfxCAg54FNoG0DAvJoeTYcGe6ucvaCy+KFFpmCKXiC+/sRHQ3E+TvY7RkOYKyOWIPZdjHWkzTuloYjaS87V4CjN1ATZlONbbaPpx+v99chYkw7lFRynykTN4VbOkUe66Eo90zvKwFXABJAoHQsy7+Zm1VgBjCeKgeZbIN1elAMtcCc8S57tcpKs0dG9EeyVj/mN3cRklqrV3dzLGzrbCVbceX9+kfBymgTlGN+HbDZfc06rHHIrk9rKGjJI4N4mL2bOJk2dsD36DRK3AgG5ZNvDAg6O6P+l7ITsYEZVXH85CCinMOD/oUyLEuHz94QJHTl760EpM0/0hr7eJRbf0jcXxRuSH8aEb/cu+D/1kAkDrmTbZCNcnYTEqp9AJ+VQ9GIdra+jbk45FVM3VctVTXEcxRPEyCaGUdDsTmTo0r3nMVLLf9npY3nyr8rp0SzsBQ5IE0oFhB6ezvpky4k7ybVzs8m3jnHPzfAz18Lijvokz8tR8waWmB6haSbsm02LKWHwANMgCDkBrn3saCSNPNIgNQMwvPpZxZsGg1nUPSVyT87yVF6g/J4V4FNrKwoMl44tjxocC1iwR216h6BDeRZcAus/sseaR8G1r4Hh8bwW3DXE3TAGwGHT0rfiizKLOGTPy6LAJcVunlxLRObPXWlk/0utBEp5080uMK2PdmdS1meoYPVCgcUtsSIFswsd0SnHaXyLTLAydmrQBAB/fV00FpNn+mm/QJBTR+5P092o5PKH6qhSnsIpv0pS5inQ8xTObdkrunA4PG/YOWNGBrx/XELxSkFQfY5yAt9ks0N6eVamn04l6F1XCmM+5LL11OSZE0ttQmb2CeToT1tFmfk0VeReiGp5iei4KmH/o+Na239Q5N3SRkarWs5OLS2+zNAGQonRKLnSymP4qTZ6Mkg39UOupT3CrK+NJz0kG7PizE7Nzd2QPIaFvk+4JQ1qTbBSTmhegf28UhiRTnLjxweKxrtBbSkVfcZ/lklxmqqR+ObPOKO44I6NhIt45/AOG3gI1YsSshiuKIQ3b9F0qByV3YHeG40J7+3d0LZ93s6rHPnfA+rU8BDNbUcjgLzW+uhWk8tqz5GUReAKUXY0RAwUomV6+mD6zNWWMSUlYXh/yyD0wMbEjMAct2NexWKFaCgzQWgsPkm/STRlKEHxcl8HhnAmMmafcFF5dVTckdoHvv/YKMVY5Yu2hE5g7Kp1aHMVBh3cYCHO1FnVIarkuSNzwwIJxfS0ZKOTmCySw3ucdrSLWqJ6ZFmJz3asSXmkPT1z+v2bDp21Zujspc0LA2vqkIeoi7MyYwLaIbaKEGDt4BkTbj/6U/720vAHnKxKztSf/LJvUuXkx42bBx+31NFl7DnKfrxt2asKRUIr53YV7rCJR3BcBF/Jd8jcWQucGS2Y03OqAEXQwLhYNJq2MK0tBZpbe98h4n9bDVY9IuNczhXMZS4i4kYH+SbvfgsG9rh1Sl7sVuBhVgUaCcqc/ckj6UFK7/cK8NkEo/F75QwnsEDUvjP1vmg2ZmtVKafOm0J2BE31BzfMl6RwBvWOtH+QTSan0WAvm0ITCxOxXW/Y="
+                        },
+                        "version": "2.8.2"
+                    },
+                    "parent": "urn:pulumi:dev::gcp::pulumi:pulumi:Stack::gcp-dev",
+                    "dependencies": [
+                        "urn:pulumi:dev::gcp::gcp:container/cluster:Cluster::helloworld"
+                    ],
+                    "propertyDependencies": {
+                        "kubeconfig": [
+                            "urn:pulumi:dev::gcp::gcp:container/cluster:Cluster::helloworld"
+                        ]
+                    }
+                },
+                {
+                    "urn": "urn:pulumi:dev::gcp::kubernetes:core/v1:Namespace::helloworld",
+                    "custom": true,
+                    "id": "helloworld-bsh36ixp",
+                    "type": "kubernetes:core/v1:Namespace",
+                    "inputs": {
+                        "apiVersion": "v1",
+                        "kind": "Namespace",
+                        "metadata": {
+                            "annotations": {
+                                "pulumi.com/autonamed": "true"
+                            },
+                            "labels": {
+                                "app.kubernetes.io/managed-by": "pulumi"
+                            },
+                            "name": "helloworld-bsh36ixp"
+                        }
+                    },
+                    "outputs": {
+                        "__initialApiVersion": "v1",
+                        "__inputs": {
+                            "apiVersion": "v1",
+                            "kind": "Namespace",
+                            "metadata": {
+                                "annotations": {
+                                    "pulumi.com/autonamed": "true"
+                                },
+                                "labels": {
+                                    "app.kubernetes.io/managed-by": "pulumi"
+                                },
+                                "name": "helloworld-bsh36ixp"
+                            }
+                        },
+                        "apiVersion": "v1",
+                        "kind": "Namespace",
+                        "metadata": {
+                            "annotations": {
+                                "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Namespace\",\"metadata\":{\"annotations\":{\"pulumi.com/autonamed\":\"true\"},\"labels\":{\"app.kubernetes.io/managed-by\":\"pulumi\"},\"name\":\"helloworld-bsh36ixp\"}}\n",
+                                "pulumi.com/autonamed": "true"
+                            },
+                            "creationTimestamp": "2021-03-02T16:54:33Z",
+                            "labels": {
+                                "app.kubernetes.io/managed-by": "pulumi"
+                            },
+                            "managedFields": [
+                                {
+                                    "apiVersion": "v1",
+                                    "fieldsType": "FieldsV1",
+                                    "fieldsV1": {
+                                        "f:metadata": {
+                                            "f:annotations": {
+                                                ".": {},
+                                                "f:kubectl.kubernetes.io/last-applied-configuration": {},
+                                                "f:pulumi.com/autonamed": {}
+                                            },
+                                            "f:labels": {
+                                                ".": {},
+                                                "f:app.kubernetes.io/managed-by": {}
+                                            }
+                                        },
+                                        "f:status": {
+                                            "f:phase": {}
+                                        }
+                                    },
+                                    "manager": "pulumi-resource-kubernetes",
+                                    "operation": "Update",
+                                    "time": "2021-03-02T16:54:33Z"
+                                }
+                            ],
+                            "name": "helloworld-bsh36ixp",
+                            "resourceVersion": "2411",
+                            "selfLink": "/api/v1/namespaces/helloworld-bsh36ixp",
+                            "uid": "92e79a5d-1316-4bef-b731-0a5d3ad1d8d8"
+                        },
+                        "spec": {
+                            "finalizers": [
+                                "kubernetes"
+                            ]
+                        },
+                        "status": {
+                            "phase": "Active"
+                        }
+                    },
+                    "parent": "urn:pulumi:dev::gcp::pulumi:pulumi:Stack::gcp-dev",
+                    "provider": "urn:pulumi:dev::gcp::pulumi:providers:kubernetes::helloworld::7524c1b5-5b1f-4497-81f7-402745d59a74",
+                    "propertyDependencies": {
+                        "apiVersion": null,
+                        "kind": null
+                    }
+                },
+                {
+                    "urn": "urn:pulumi:dev::gcp::kubernetes:apps/v1:Deployment::helloworld",
+                    "custom": true,
+                    "id": "helloworld-bsh36ixp/helloworld-kpt1wasl",
+                    "type": "kubernetes:apps/v1:Deployment",
+                    "inputs": {
+                        "apiVersion": "apps/v1",
+                        "kind": "Deployment",
+                        "metadata": {
+                            "annotations": {
+                                "pulumi.com/autonamed": "true"
+                            },
+                            "labels": {
+                                "app.kubernetes.io/managed-by": "pulumi",
+                                "appClass": "helloworld"
+                            },
+                            "name": "helloworld-kpt1wasl",
+                            "namespace": "helloworld-bsh36ixp"
+                        },
+                        "spec": {
+                            "replicas": 1,
+                            "selector": {
+                                "matchLabels": {
+                                    "appClass": "helloworld"
+                                }
+                            },
+                            "template": {
+                                "metadata": {
+                                    "labels": {
+                                        "appClass": "helloworld"
+                                    }
+                                },
+                                "spec": {
+                                    "containers": [
+                                        {
+                                            "image": "nginx:latest",
+                                            "name": "helloworld",
+                                            "ports": [
+                                                {
+                                                    "containerPort": 80,
+                                                    "name": "http"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "outputs": {
+                        "__initialApiVersion": "apps/v1",
+                        "__inputs": {
+                            "apiVersion": "apps/v1",
+                            "kind": "Deployment",
+                            "metadata": {
+                                "annotations": {
+                                    "pulumi.com/autonamed": "true"
+                                },
+                                "labels": {
+                                    "app.kubernetes.io/managed-by": "pulumi",
+                                    "appClass": "helloworld"
+                                },
+                                "name": "helloworld-kpt1wasl",
+                                "namespace": "helloworld-bsh36ixp"
+                            },
+                            "spec": {
+                                "replicas": 1,
+                                "selector": {
+                                    "matchLabels": {
+                                        "appClass": "helloworld"
+                                    }
+                                },
+                                "template": {
+                                    "metadata": {
+                                        "labels": {
+                                            "appClass": "helloworld"
+                                        }
+                                    },
+                                    "spec": {
+                                        "containers": [
+                                            {
+                                                "image": "nginx:latest",
+                                                "name": "helloworld",
+                                                "ports": [
+                                                    {
+                                                        "containerPort": 80,
+                                                        "name": "http"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        "apiVersion": "apps/v1",
+                        "kind": "Deployment",
+                        "metadata": {
+                            "annotations": {
+                                "deployment.kubernetes.io/revision": "1",
+                                "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{\"pulumi.com/autonamed\":\"true\"},\"labels\":{\"app.kubernetes.io/managed-by\":\"pulumi\",\"appClass\":\"helloworld\"},\"name\":\"helloworld-kpt1wasl\",\"namespace\":\"helloworld-bsh36ixp\"},\"spec\":{\"replicas\":1,\"selector\":{\"matchLabels\":{\"appClass\":\"helloworld\"}},\"template\":{\"metadata\":{\"labels\":{\"appClass\":\"helloworld\"}},\"spec\":{\"containers\":[{\"image\":\"nginx:latest\",\"name\":\"helloworld\",\"ports\":[{\"containerPort\":80,\"name\":\"http\"}]}]}}}}\n",
+                                "pulumi.com/autonamed": "true"
+                            },
+                            "creationTimestamp": "2021-03-02T16:54:33Z",
+                            "generation": 1,
+                            "labels": {
+                                "app.kubernetes.io/managed-by": "pulumi",
+                                "appClass": "helloworld"
+                            },
+                            "managedFields": [
+                                {
+                                    "apiVersion": "apps/v1",
+                                    "fieldsType": "FieldsV1",
+                                    "fieldsV1": {
+                                        "f:metadata": {
+                                            "f:annotations": {
+                                                ".": {},
+                                                "f:kubectl.kubernetes.io/last-applied-configuration": {},
+                                                "f:pulumi.com/autonamed": {}
+                                            },
+                                            "f:labels": {
+                                                ".": {},
+                                                "f:app.kubernetes.io/managed-by": {},
+                                                "f:appClass": {}
+                                            }
+                                        },
+                                        "f:spec": {
+                                            "f:progressDeadlineSeconds": {},
+                                            "f:replicas": {},
+                                            "f:revisionHistoryLimit": {},
+                                            "f:selector": {
+                                                "f:matchLabels": {
+                                                    ".": {},
+                                                    "f:appClass": {}
+                                                }
+                                            },
+                                            "f:strategy": {
+                                                "f:rollingUpdate": {
+                                                    ".": {},
+                                                    "f:maxSurge": {},
+                                                    "f:maxUnavailable": {}
+                                                },
+                                                "f:type": {}
+                                            },
+                                            "f:template": {
+                                                "f:metadata": {
+                                                    "f:labels": {
+                                                        ".": {},
+                                                        "f:appClass": {}
+                                                    }
+                                                },
+                                                "f:spec": {
+                                                    "f:containers": {
+                                                        "k:{\"name\":\"helloworld\"}": {
+                                                            ".": {},
+                                                            "f:image": {},
+                                                            "f:imagePullPolicy": {},
+                                                            "f:name": {},
+                                                            "f:ports": {
+                                                                ".": {},
+                                                                "k:{\"containerPort\":80,\"protocol\":\"TCP\"}": {
+                                                                    ".": {},
+                                                                    "f:containerPort": {},
+                                                                    "f:name": {},
+                                                                    "f:protocol": {}
+                                                                }
+                                                            },
+                                                            "f:resources": {},
+                                                            "f:terminationMessagePath": {},
+                                                            "f:terminationMessagePolicy": {}
+                                                        }
+                                                    },
+                                                    "f:dnsPolicy": {},
+                                                    "f:restartPolicy": {},
+                                                    "f:schedulerName": {},
+                                                    "f:securityContext": {},
+                                                    "f:terminationGracePeriodSeconds": {}
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "manager": "pulumi-resource-kubernetes",
+                                    "operation": "Update",
+                                    "time": "2021-03-02T16:54:33Z"
+                                },
+                                {
+                                    "apiVersion": "apps/v1",
+                                    "fieldsType": "FieldsV1",
+                                    "fieldsV1": {
+                                        "f:metadata": {
+                                            "f:annotations": {
+                                                "f:deployment.kubernetes.io/revision": {}
+                                            }
+                                        },
+                                        "f:status": {
+                                            "f:availableReplicas": {},
+                                            "f:conditions": {
+                                                ".": {},
+                                                "k:{\"type\":\"Available\"}": {
+                                                    ".": {},
+                                                    "f:lastTransitionTime": {},
+                                                    "f:lastUpdateTime": {},
+                                                    "f:message": {},
+                                                    "f:reason": {},
+                                                    "f:status": {},
+                                                    "f:type": {}
+                                                },
+                                                "k:{\"type\":\"Progressing\"}": {
+                                                    ".": {},
+                                                    "f:lastTransitionTime": {},
+                                                    "f:lastUpdateTime": {},
+                                                    "f:message": {},
+                                                    "f:reason": {},
+                                                    "f:status": {},
+                                                    "f:type": {}
+                                                }
+                                            },
+                                            "f:observedGeneration": {},
+                                            "f:readyReplicas": {},
+                                            "f:replicas": {},
+                                            "f:updatedReplicas": {}
+                                        }
+                                    },
+                                    "manager": "kube-controller-manager",
+                                    "operation": "Update",
+                                    "time": "2021-03-02T16:54:40Z"
+                                }
+                            ],
+                            "name": "helloworld-kpt1wasl",
+                            "namespace": "helloworld-bsh36ixp",
+                            "resourceVersion": "2508",
+                            "selfLink": "/apis/apps/v1/namespaces/helloworld-bsh36ixp/deployments/helloworld-kpt1wasl",
+                            "uid": "1e4bb477-52b6-4ebd-a69d-42332a9774f5"
+                        },
+                        "spec": {
+                            "progressDeadlineSeconds": 600,
+                            "replicas": 1,
+                            "revisionHistoryLimit": 10,
+                            "selector": {
+                                "matchLabels": {
+                                    "appClass": "helloworld"
+                                }
+                            },
+                            "strategy": {
+                                "rollingUpdate": {
+                                    "maxSurge": "25%",
+                                    "maxUnavailable": "25%"
+                                },
+                                "type": "RollingUpdate"
+                            },
+                            "template": {
+                                "metadata": {
+                                    "labels": {
+                                        "appClass": "helloworld"
+                                    }
+                                },
+                                "spec": {
+                                    "containers": [
+                                        {
+                                            "image": "nginx:latest",
+                                            "imagePullPolicy": "Always",
+                                            "name": "helloworld",
+                                            "ports": [
+                                                {
+                                                    "containerPort": 80,
+                                                    "name": "http",
+                                                    "protocol": "TCP"
+                                                }
+                                            ],
+                                            "resources": {},
+                                            "terminationMessagePath": "/dev/termination-log",
+                                            "terminationMessagePolicy": "File"
+                                        }
+                                    ],
+                                    "dnsPolicy": "ClusterFirst",
+                                    "restartPolicy": "Always",
+                                    "schedulerName": "default-scheduler",
+                                    "securityContext": {},
+                                    "terminationGracePeriodSeconds": 30
+                                }
+                            }
+                        },
+                        "status": {
+                            "availableReplicas": 1,
+                            "conditions": [
+                                {
+                                    "lastTransitionTime": "2021-03-02T16:54:40Z",
+                                    "lastUpdateTime": "2021-03-02T16:54:40Z",
+                                    "message": "Deployment has minimum availability.",
+                                    "reason": "MinimumReplicasAvailable",
+                                    "status": "True",
+                                    "type": "Available"
+                                },
+                                {
+                                    "lastTransitionTime": "2021-03-02T16:54:33Z",
+                                    "lastUpdateTime": "2021-03-02T16:54:40Z",
+                                    "message": "ReplicaSet \"helloworld-kpt1wasl-7f7cfbd7fc\" has successfully progressed.",
+                                    "reason": "NewReplicaSetAvailable",
+                                    "status": "True",
+                                    "type": "Progressing"
+                                }
+                            ],
+                            "observedGeneration": 1,
+                            "readyReplicas": 1,
+                            "replicas": 1,
+                            "updatedReplicas": 1
+                        }
+                    },
+                    "parent": "urn:pulumi:dev::gcp::pulumi:pulumi:Stack::gcp-dev",
+                    "dependencies": [
+                        "urn:pulumi:dev::gcp::kubernetes:core/v1:Namespace::helloworld"
+                    ],
+                    "provider": "urn:pulumi:dev::gcp::pulumi:providers:kubernetes::helloworld::7524c1b5-5b1f-4497-81f7-402745d59a74",
+                    "propertyDependencies": {
+                        "apiVersion": null,
+                        "kind": null,
+                        "metadata": [
+                            "urn:pulumi:dev::gcp::kubernetes:core/v1:Namespace::helloworld"
+                        ],
+                        "spec": null
+                    },
+                    "aliases": [
+                        "urn:pulumi:dev::gcp::kubernetes:apps/v1beta1:Deployment::helloworld",
+                        "urn:pulumi:dev::gcp::kubernetes:apps/v1beta2:Deployment::helloworld",
+                        "urn:pulumi:dev::gcp::kubernetes:extensions/v1beta1:Deployment::helloworld"
+                    ]
+                },
+                {
+                    "urn": "urn:pulumi:dev::gcp::kubernetes:core/v1:Service::helloworld",
+                    "custom": true,
+                    "id": "helloworld-bsh36ixp/helloworld-bu6hjstm",
+                    "type": "kubernetes:core/v1:Service",
+                    "inputs": {
+                        "apiVersion": "v1",
+                        "kind": "Service",
+                        "metadata": {
+                            "annotations": {
+                                "pulumi.com/autonamed": "true"
+                            },
+                            "labels": {
+                                "app.kubernetes.io/managed-by": "pulumi",
+                                "appClass": "helloworld"
+                            },
+                            "name": "helloworld-bu6hjstm",
+                            "namespace": "helloworld-bsh36ixp"
+                        },
+                        "spec": {
+                            "ports": [
+                                {
+                                    "port": 80,
+                                    "targetPort": "http"
+                                }
+                            ],
+                            "selector": {
+                                "appClass": "helloworld"
+                            },
+                            "type": "LoadBalancer"
+                        }
+                    },
+                    "outputs": {
+                        "__initialApiVersion": "v1",
+                        "__inputs": {
+                            "apiVersion": "v1",
+                            "kind": "Service",
+                            "metadata": {
+                                "annotations": {
+                                    "pulumi.com/autonamed": "true"
+                                },
+                                "labels": {
+                                    "app.kubernetes.io/managed-by": "pulumi",
+                                    "appClass": "helloworld"
+                                },
+                                "name": "helloworld-bu6hjstm",
+                                "namespace": "helloworld-bsh36ixp"
+                            },
+                            "spec": {
+                                "ports": [
+                                    {
+                                        "port": 80,
+                                        "targetPort": "http"
+                                    }
+                                ],
+                                "selector": {
+                                    "appClass": "helloworld"
+                                },
+                                "type": "LoadBalancer"
+                            }
+                        },
+                        "apiVersion": "v1",
+                        "kind": "Service",
+                        "metadata": {
+                            "annotations": {
+                                "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"pulumi.com/autonamed\":\"true\"},\"labels\":{\"app.kubernetes.io/managed-by\":\"pulumi\",\"appClass\":\"helloworld\"},\"name\":\"helloworld-bu6hjstm\",\"namespace\":\"helloworld-bsh36ixp\"},\"spec\":{\"ports\":[{\"port\":80,\"targetPort\":\"http\"}],\"selector\":{\"appClass\":\"helloworld\"},\"type\":\"LoadBalancer\"}}\n",
+                                "pulumi.com/autonamed": "true"
+                            },
+                            "creationTimestamp": "2021-03-02T16:54:33Z",
+                            "finalizers": [
+                                "service.kubernetes.io/load-balancer-cleanup"
+                            ],
+                            "labels": {
+                                "app.kubernetes.io/managed-by": "pulumi",
+                                "appClass": "helloworld"
+                            },
+                            "managedFields": [
+                                {
+                                    "apiVersion": "v1",
+                                    "fieldsType": "FieldsV1",
+                                    "fieldsV1": {
+                                        "f:metadata": {
+                                            "f:annotations": {
+                                                ".": {},
+                                                "f:kubectl.kubernetes.io/last-applied-configuration": {},
+                                                "f:pulumi.com/autonamed": {}
+                                            },
+                                            "f:labels": {
+                                                ".": {},
+                                                "f:app.kubernetes.io/managed-by": {},
+                                                "f:appClass": {}
+                                            }
+                                        },
+                                        "f:spec": {
+                                            "f:externalTrafficPolicy": {},
+                                            "f:ports": {
+                                                ".": {},
+                                                "k:{\"port\":80,\"protocol\":\"TCP\"}": {
+                                                    ".": {},
+                                                    "f:port": {},
+                                                    "f:protocol": {},
+                                                    "f:targetPort": {}
+                                                }
+                                            },
+                                            "f:selector": {
+                                                ".": {},
+                                                "f:appClass": {}
+                                            },
+                                            "f:sessionAffinity": {},
+                                            "f:type": {}
+                                        }
+                                    },
+                                    "manager": "pulumi-resource-kubernetes",
+                                    "operation": "Update",
+                                    "time": "2021-03-02T16:54:33Z"
+                                },
+                                {
+                                    "apiVersion": "v1",
+                                    "fieldsType": "FieldsV1",
+                                    "fieldsV1": {
+                                        "f:metadata": {
+                                            "f:finalizers": {
+                                                ".": {},
+                                                "v:\"service.kubernetes.io/load-balancer-cleanup\"": {}
+                                            }
+                                        },
+                                        "f:status": {
+                                            "f:loadBalancer": {
+                                                "f:ingress": {}
+                                            }
+                                        }
+                                    },
+                                    "manager": "kube-controller-manager",
+                                    "operation": "Update",
+                                    "time": "2021-03-02T16:55:14Z"
+                                }
+                            ],
+                            "name": "helloworld-bu6hjstm",
+                            "namespace": "helloworld-bsh36ixp",
+                            "resourceVersion": "2707",
+                            "selfLink": "/api/v1/namespaces/helloworld-bsh36ixp/services/helloworld-bu6hjstm",
+                            "uid": "07304463-335b-4a3a-a9bf-b7aaffd902c0"
+                        },
+                        "spec": {
+                            "clusterIP": "10.71.243.186",
+                            "externalTrafficPolicy": "Cluster",
+                            "ports": [
+                                {
+                                    "nodePort": 30185,
+                                    "port": 80,
+                                    "protocol": "TCP",
+                                    "targetPort": "http"
+                                }
+                            ],
+                            "selector": {
+                                "appClass": "helloworld"
+                            },
+                            "sessionAffinity": "None",
+                            "type": "LoadBalancer"
+                        },
+                        "status": {
+                            "loadBalancer": {
+                                "ingress": [
+                                    {
+                                        "ip": "34.82.52.64"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "parent": "urn:pulumi:dev::gcp::pulumi:pulumi:Stack::gcp-dev",
+                    "dependencies": [
+                        "urn:pulumi:dev::gcp::kubernetes:core/v1:Namespace::helloworld"
+                    ],
+                    "provider": "urn:pulumi:dev::gcp::pulumi:providers:kubernetes::helloworld::7524c1b5-5b1f-4497-81f7-402745d59a74",
+                    "propertyDependencies": {
+                        "apiVersion": null,
+                        "kind": null,
+                        "metadata": [
+                            "urn:pulumi:dev::gcp::kubernetes:core/v1:Namespace::helloworld"
+                        ],
+                        "spec": null
+                    }
+                }
+            ]
+        }
+    }
+}
