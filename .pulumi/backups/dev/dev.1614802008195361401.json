@@ -1,0 +1,195 @@
+{
+    "version": 3,
+    "checkpoint": {
+        "stack": "dev",
+        "latest": {
+            "manifest": {
+                "time": "2021-03-03T17:06:48.151307744-03:00",
+                "magic": "b1435d3d77d02af2adb0ad112726773042d6e59fde3035eaae40870fc584c496",
+                "version": "v2.21.0"
+            },
+            "secrets_providers": {
+                "type": "passphrase",
+                "state": {
+                    "salt": "v1:XC7BX0fi/q0=:v1:n+6MVcnI7kH5y1ZB:8KGxiEQX192aKpfj4k1xamY688DArg=="
+                }
+            },
+            "resources": [
+                {
+                    "urn": "urn:pulumi:dev::azure::pulumi:pulumi:Stack::azure-dev",
+                    "custom": false,
+                    "type": "pulumi:pulumi:Stack",
+                    "outputs": {
+                        "connectionString": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:ZjU80smks115OLDG:aQK5nbWhRg1Jxjwj9aFiSgJkGNPRHLFFEcZ9VE7//2TfMTptKXylkpcnRP6O5p79M37l2YK9KLr+H+0avaoEq5HQDH1CPF8xFILoGnT4uhiB7o/Ha5Rvv7PCRHb2jCUL/2iWLZ8Y6HT3Nk6V6qYuOLn1kZoo6ofjglRX7KNICmY/rotu56I9umO9FZHOAL8nkEkQvO0RPKOEBj1zzalfmKihGwgGnM50Jf7MUIrIp/fp9AWCyBSb389hJudePawO6IOgKGpGmXCkzJtt4Ars"
+                        }
+                    }
+                },
+                {
+                    "urn": "urn:pulumi:dev::azure::pulumi:providers:azure::default_3_48_0",
+                    "custom": true,
+                    "id": "7eaec1bd-32e7-44f6-b087-7ca5ce2a8d0c",
+                    "type": "pulumi:providers:azure",
+                    "inputs": {
+                        "location": "brazilsouth",
+                        "version": "3.48.0"
+                    },
+                    "outputs": {
+                        "location": "brazilsouth",
+                        "version": "3.48.0"
+                    }
+                },
+                {
+                    "urn": "urn:pulumi:dev::azure::azure:core/resourceGroup:ResourceGroup::resourceGroup",
+                    "custom": true,
+                    "id": "/subscriptions/9c8be353-6717-4cf6-af9e-7af2f6b73fb8/resourceGroups/resourcegroup8ab11b30",
+                    "type": "azure:core/resourceGroup:ResourceGroup",
+                    "inputs": {
+                        "__defaults": [
+                            "location",
+                            "name"
+                        ],
+                        "location": "brazilsouth",
+                        "name": "resourcegroup8ab11b30"
+                    },
+                    "outputs": {
+                        "__meta": "{\"e2bfb730-ecaa-11e6-8f88-34363bc7c4c0\":{\"create\":5400000000000,\"delete\":5400000000000,\"read\":300000000000,\"update\":5400000000000}}",
+                        "id": "/subscriptions/9c8be353-6717-4cf6-af9e-7af2f6b73fb8/resourceGroups/resourcegroup8ab11b30",
+                        "location": "brazilsouth",
+                        "name": "resourcegroup8ab11b30",
+                        "tags": {}
+                    },
+                    "parent": "urn:pulumi:dev::azure::pulumi:pulumi:Stack::azure-dev",
+                    "provider": "urn:pulumi:dev::azure::pulumi:providers:azure::default_3_48_0::7eaec1bd-32e7-44f6-b087-7ca5ce2a8d0c"
+                },
+                {
+                    "urn": "urn:pulumi:dev::azure::azure:storage/account:Account::storage",
+                    "custom": true,
+                    "id": "/subscriptions/9c8be353-6717-4cf6-af9e-7af2f6b73fb8/resourceGroups/resourcegroup8ab11b30/providers/Microsoft.Storage/storageAccounts/storage10a7f8b",
+                    "type": "azure:storage/account:Account",
+                    "inputs": {
+                        "__defaults": [
+                            "accountKind",
+                            "allowBlobPublicAccess",
+                            "enableHttpsTrafficOnly",
+                            "isHnsEnabled",
+                            "location",
+                            "minTlsVersion",
+                            "name"
+                        ],
+                        "accountKind": "StorageV2",
+                        "accountReplicationType": "LRS",
+                        "accountTier": "Standard",
+                        "allowBlobPublicAccess": false,
+                        "enableHttpsTrafficOnly": true,
+                        "isHnsEnabled": false,
+                        "location": "brazilsouth",
+                        "minTlsVersion": "TLS1_0",
+                        "name": "storage10a7f8b",
+                        "resourceGroupName": "resourcegroup8ab11b30"
+                    },
+                    "outputs": {
+                        "__meta": "{\"e2bfb730-ecaa-11e6-8f88-34363bc7c4c0\":{\"create\":3600000000000,\"delete\":3600000000000,\"read\":300000000000,\"update\":3600000000000},\"schema_version\":\"2\"}",
+                        "accessTier": "Hot",
+                        "accountKind": "StorageV2",
+                        "accountReplicationType": "LRS",
+                        "accountTier": "Standard",
+                        "allowBlobPublicAccess": false,
+                        "blobProperties": null,
+                        "enableHttpsTrafficOnly": true,
+                        "id": "/subscriptions/9c8be353-6717-4cf6-af9e-7af2f6b73fb8/resourceGroups/resourcegroup8ab11b30/providers/Microsoft.Storage/storageAccounts/storage10a7f8b",
+                        "identity": null,
+                        "isHnsEnabled": false,
+                        "location": "brazilsouth",
+                        "minTlsVersion": "TLS1_0",
+                        "name": "storage10a7f8b",
+                        "networkRules": {
+                            "bypasses": [
+                                "AzureServices"
+                            ],
+                            "defaultAction": "Allow",
+                            "ipRules": [],
+                            "virtualNetworkSubnetIds": []
+                        },
+                        "primaryAccessKey": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:bhoIVZcBvlo8mgUQ:OypaeKSXfG3WAAFG/ZQMrC7OLZETr8hC2QHgINcUc1M4bkDsrN87u+z70ZXHz0AvLg3lT4PymJottbTyHIW7bWlBk9kiABEhJIj2AcTu2JZ0d4+cuN4Daex/waonX8F6KOgUItidyvLdSQ=="
+                        },
+                        "primaryBlobConnectionString": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:tLHbsmWWZJF7WvVp:yhSROlmOs67PbKInMvL/OSxQjQVSQ3RGtileq9QVQAJyO8JvgAQbBfs19V2Uxgmf745mXjJZalltMHlV5s3WUA423mvLMo8v/XSB/HQEWDZx1hggKQt8bAptlfWYbW8AsfTKOEAKCaX5r3aUb3PezBoPahpdYCvVvgRjFbPLDPNBLRa597N4odtLIc2z87+s83K/KJSYuCTR4AEz0auRiE72HDEAa2FKTHAtiMbgW9nnmol6uWuJ/jpi0qbzIWCgcxzkS9FBRab0WMrfrwya901kti2+XjwpQCorooa6McmBxqoaMmqYB6rF"
+                        },
+                        "primaryBlobEndpoint": "https://storage10a7f8b.blob.core.windows.net/",
+                        "primaryBlobHost": "storage10a7f8b.blob.core.windows.net",
+                        "primaryConnectionString": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:USj2EPa58KEpuak/:Ab/XpBvfesZ4ZIbF2mZZ5SEx7HeQ8XawVqJfdeEGP2m3GBlJbeONT40T9PWmkkGsEcsmFqb6oBqa5KTI3QnFlboLYL/PzmFFqzhdqWikYJCPtIABjumPTfsYAr2tvrEyAJQmfIp8+eQmAClVwykd7vK6ILjh0vBBtdGDFmGhrqMUJ2JqLFUPVook7/WM8q928XwfpurVXtKIcqhLZNd/oaxovRDAb48hb9hBJAaVO4BHJUYQDIauLD6dChIwxZ6MhFyqZpRpVU6cOGVx/WiI"
+                        },
+                        "primaryDfsEndpoint": "https://storage10a7f8b.dfs.core.windows.net/",
+                        "primaryDfsHost": "storage10a7f8b.dfs.core.windows.net",
+                        "primaryFileEndpoint": "https://storage10a7f8b.file.core.windows.net/",
+                        "primaryFileHost": "storage10a7f8b.file.core.windows.net",
+                        "primaryLocation": "brazilsouth",
+                        "primaryQueueEndpoint": "https://storage10a7f8b.queue.core.windows.net/",
+                        "primaryQueueHost": "storage10a7f8b.queue.core.windows.net",
+                        "primaryTableEndpoint": "https://storage10a7f8b.table.core.windows.net/",
+                        "primaryTableHost": "storage10a7f8b.table.core.windows.net",
+                        "primaryWebEndpoint": "https://storage10a7f8b.z15.web.core.windows.net/",
+                        "primaryWebHost": "storage10a7f8b.z15.web.core.windows.net",
+                        "queueProperties": {
+                            "corsRules": [],
+                            "hourMetrics": {
+                                "enabled": true,
+                                "includeApis": true,
+                                "retentionPolicyDays": 7,
+                                "version": "1.0"
+                            },
+                            "logging": {
+                                "delete": false,
+                                "read": false,
+                                "retentionPolicyDays": 0,
+                                "version": "1.0",
+                                "write": false
+                            },
+                            "minuteMetrics": {
+                                "enabled": false,
+                                "includeApis": false,
+                                "retentionPolicyDays": 0,
+                                "version": "1.0"
+                            }
+                        },
+                        "resourceGroupName": "resourcegroup8ab11b30",
+                        "secondaryAccessKey": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:kpUJhOLmpj8a2/wq:6yMjb7c4Gkn+HqK73XCuTkFiIyH/cVT2yI1JyDwBEV0jxTPT+ogb8tERoSgmjQqLB/MABHvsiaVwD1YevLGNK0ef7Wvqkr9yrtPgYLWy5ExutDyV2nYgxFkxvPwTGBgI0rO+RJOW9VdN1g=="
+                        },
+                        "secondaryBlobConnectionString": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:M5jyZgoqr9wAUryb:LbSOb/XhrMuq0WFs3KeRvxYh"
+                        },
+                        "secondaryConnectionString": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:iNzLXa9r0FvjwpmE:xPdWdXdtGdStiE4RcZoLbxM3qWFYKtB0NzJEuZbTQ/Z78HV409eFP1B3zlyZlUtMwD9kw8o+cBP55fsTkhIv98BofXRabDmB5eqEv4afuvTdBvBCT1G9zmhNYWus7IMZ3deoAUJzwUSF933LCRdE6+W49a9WDu2/f1M1xLxsv9nkV8f7sVz1tE4QTyKHj0K9AmzxOi/70HRXlKla4/dX8XS1RH9UZgifKUhmt4HJmnGx/LYDAALtGxkB/3AsdCkOIiOdkSQH0aQAtle49ZPQ"
+                        },
+                        "secondaryLocation": "",
+                        "staticWebsite": null,
+                        "tags": {}
+                    },
+                    "parent": "urn:pulumi:dev::azure::pulumi:pulumi:Stack::azure-dev",
+                    "dependencies": [
+                        "urn:pulumi:dev::azure::azure:core/resourceGroup:ResourceGroup::resourceGroup"
+                    ],
+                    "provider": "urn:pulumi:dev::azure::pulumi:providers:azure::default_3_48_0::7eaec1bd-32e7-44f6-b087-7ca5ce2a8d0c",
+                    "propertyDependencies": {
+                        "accountReplicationType": null,
+                        "accountTier": null,
+                        "resourceGroupName": [
+                            "urn:pulumi:dev::azure::azure:core/resourceGroup:ResourceGroup::resourceGroup"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

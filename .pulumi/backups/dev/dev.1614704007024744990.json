@@ -1,0 +1,485 @@
+{
+    "version": 3,
+    "checkpoint": {
+        "stack": "dev",
+        "latest": {
+            "manifest": {
+                "time": "2021-03-02T13:53:27.022103431-03:00",
+                "magic": "b1435d3d77d02af2adb0ad112726773042d6e59fde3035eaae40870fc584c496",
+                "version": "v2.21.0"
+            },
+            "secrets_providers": {
+                "type": "passphrase",
+                "state": {
+                    "salt": "v1:2xlKZiQG4rM=:v1:5JFXnRgRifpBG7Vs:A07dKXi1jPkp0iIMklu6wlOMTLglnQ=="
+                }
+            },
+            "resources": [
+                {
+                    "urn": "urn:pulumi:dev::gcp::pulumi:pulumi:Stack::gcp-dev",
+                    "custom": false,
+                    "type": "pulumi:pulumi:Stack",
+                    "outputs": {
+                        "clusterName": "helloworld-eb5f7b8",
+                        "kubeconfig": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:EpAROj2mA7WHS9+D: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"
+                        }
+                    }
+                },
+                {
+                    "urn": "urn:pulumi:dev::gcp::pulumi:providers:gcp::default_4_13_0",
+                    "custom": true,
+                    "id": "dfdb0c90-6e1c-4231-9560-109d7e6baceb",
+                    "type": "pulumi:providers:gcp",
+                    "inputs": {
+                        "project": "devops-gcp-luifa",
+                        "version": "4.13.0",
+                        "zone": "us-west1-a"
+                    },
+                    "outputs": {
+                        "project": "devops-gcp-luifa",
+                        "version": "4.13.0",
+                        "zone": "us-west1-a"
+                    }
+                },
+                {
+                    "urn": "urn:pulumi:dev::gcp::gcp:container/cluster:Cluster::helloworld",
+                    "custom": true,
+                    "id": "projects/devops-gcp-luifa/locations/us-west1-a/clusters/helloworld-eb5f7b8",
+                    "type": "gcp:container/cluster:Cluster",
+                    "inputs": {
+                        "__defaults": [
+                            "enableBinaryAuthorization",
+                            "enableIntranodeVisibility",
+                            "enableKubernetesAlpha",
+                            "enableLegacyAbac",
+                            "enableShieldedNodes",
+                            "enableTpu",
+                            "name"
+                        ],
+                        "addonsConfig": {
+                            "cloudrunConfig": null,
+                            "configConnectorConfig": null,
+                            "dnsCacheConfig": null,
+                            "gcePersistentDiskCsiDriverConfig": {
+                                "enabled": true
+                            },
+                            "horizontalPodAutoscaling": null,
+                            "httpLoadBalancing": null,
+                            "istioConfig": null,
+                            "kalmConfig": null,
+                            "networkPolicyConfig": {
+                                "disabled": true
+                            }
+                        },
+                        "authenticatorGroupsConfig": null,
+                        "clusterAutoscaling": {
+                            "autoProvisioningDefaults": null,
+                            "autoscalingProfile": "BALANCED",
+                            "enabled": false,
+                            "resourceLimits": []
+                        },
+                        "clusterIpv4Cidr": "10.68.0.0/14",
+                        "clusterTelemetry": {
+                            "type": "ENABLED"
+                        },
+                        "confidentialNodes": null,
+                        "databaseEncryption": {
+                            "keyName": "",
+                            "state": "DECRYPTED"
+                        },
+                        "datapathProvider": "",
+                        "defaultSnatStatus": {
+                            "disabled": false
+                        },
+                        "description": "",
+                        "enableBinaryAuthorization": false,
+                        "enableIntranodeVisibility": false,
+                        "enableKubernetesAlpha": false,
+                        "enableLegacyAbac": false,
+                        "enableShieldedNodes": false,
+                        "enableTpu": false,
+                        "initialNodeCount": 2,
+                        "ipAllocationPolicy": null,
+                        "location": "us-west1-a",
+                        "loggingService": "logging.googleapis.com/kubernetes",
+                        "maintenancePolicy": null,
+                        "masterAuth": {
+                            "clientCertificate": "",
+                            "clientCertificateConfig": {
+                                "issueClientCertificate": false
+                            },
+                            "clientKey": {
+                                "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                                "ciphertext": "v1:m5mEwG80Sp9c549M:GC+lQnh/aWvL0fwdFUy3OD2V"
+                            },
+                            "clusterCaCertificate": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLekNDQWhPZ0F3SUJBZ0lSQU94V0NOMUtRMkJYMFBOQ1pQb2cydFF3RFFZSktvWklodmNOQVFFTEJRQXcKTHpFdE1Dc0dBMVVFQXhNa05XTTJaVFZsWlRjdE9EaGpZUzAwWVdSaUxUazNNbVF0WkRnMU5EWTJaV0ZpWVRjegpNQjRYRFRJeE1ETXdNakUxTkRjMU0xb1hEVEkyTURNd01URTJORGMxTTFvd0x6RXRNQ3NHQTFVRUF4TWtOV00yClpUVmxaVGN0T0RoallTMDBZV1JpTFRrM01tUXRaRGcxTkRZMlpXRmlZVGN6TUlJQklqQU5CZ2txaGtpRzl3MEIKQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBeUFKZHF6U0JUeVRsa0hTREFKelVVd21ZTkRzRFlWaG1URk83aFFsZApnMS9XQXN6eEFTeFFqaExGcEhMWGZNckl1RjA2NVVucHJyeG51cUJoNXFSTnVvcEI0NmtsbEhYOE9pdkRNamViClZxTjNiNGJveVVjTlB4T0lpN1cyTExuTklnTXNQVkgvSGsrM1pZbURicE1IaC8wNEZOcjY5NklKb3F1NU1GT3AKMFhGdEF3RXFnaVhpamorM2I2amN3M0IwbXlxbW9zVzhkaWNEdlZJdTNPOHdSUnprdkJFTEZKZ3V1cDZNOVlpawp2bFVOd1BTdHhNdjU3Q1JjaTdQS245RXBZQTFrOGpHT2xJaXdyWGtNWFphMTRuaXB4c2QySXlqK1UramdZTnhuCitqeEFoZHI2M3ZRcFZvR1BFVkVNM0ZIcklGL1l2Zkswckw4WXFqSlVzM0R2MXdJREFRQUJvMEl3UURBT0JnTlYKSFE4QkFmOEVCQU1DQWdRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVS9XQmI5TGpQQjJzYgp0MWIySm9qSFZoUTU2WDR3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUVoK0ZyQkpkM3UvZU1WWCtUb2xtN3Z3Ck9DbGR1eVJWaGxhRlFWc1M0SnNDZm45TzlmbFJFVXlzN1ZHTzNvT2ErSVhtK2JKeHZPUXJGTVJ5c3ZKMVJMOEwKTThKYjI0cWxrUXhhcXEzR0dlTmR4WjJ6Q0xucXp5TEhoUE55QUxMSGRYaVltbk9KaGRxN2NkWlFsT2xVU0JDaAowaFVTdEgzTVdKYUdzUEFVSGdxTXRYbnlTSjYwMkVzblJiMTZ5cFdoYWZZcGNZWWcxb1RxbDVHb2QzbG1ZZWFPCk9PQkh1TXVDcW9WRStlTnpuaDlaTkZha3R2RlNTU0dybXRyZWVXdmdaY0VXOUdRRzdncFFKcjNETDd0c0w5TG8KTEdtN3Z6K01PYzdCMVp0N2xnNUpIS1VMVFlYSGhMbGVraFU3cnBqeXdjei9tRk1qZzNVRG9GNWl4elIrZmQ4PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==",
+                            "password": {
+                                "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                                "ciphertext": "v1:WTy4M2tTZ0ro6nqY:LZLDz0BbyTEgc3LjBRWiXntu"
+                            },
+                            "username": ""
+                        },
+                        "masterAuthorizedNetworksConfig": null,
+                        "minMasterVersion": "1.18.16-gke.300",
+                        "monitoringService": "monitoring.googleapis.com/kubernetes",
+                        "name": "helloworld-eb5f7b8",
+                        "network": "projects/devops-gcp-luifa/global/networks/default",
+                        "networkPolicy": {
+                            "enabled": false,
+                            "provider": "PROVIDER_UNSPECIFIED"
+                        },
+                        "networkingMode": "ROUTES",
+                        "nodeConfig": {
+                            "__defaults": [
+                                "preemptible"
+                            ],
+                            "bootDiskKmsKey": "",
+                            "diskSizeGb": 100,
+                            "diskType": "pd-standard",
+                            "guestAccelerators": [],
+                            "imageType": "COS",
+                            "kubeletConfig": null,
+                            "labels": {},
+                            "linuxNodeConfig": null,
+                            "localSsdCount": 0,
+                            "machineType": "n1-standard-1",
+                            "metadata": {
+                                "disable-legacy-endpoints": "true"
+                            },
+                            "minCpuPlatform": "",
+                            "oauthScopes": [
+                                "https://www.googleapis.com/auth/monitoring",
+                                "https://www.googleapis.com/auth/devstorage.read_only",
+                                "https://www.googleapis.com/auth/logging.write",
+                                "https://www.googleapis.com/auth/compute"
+                            ],
+                            "preemptible": false,
+                            "sandboxConfig": null,
+                            "serviceAccount": "default",
+                            "shieldedInstanceConfig": {
+                                "enableIntegrityMonitoring": true,
+                                "enableSecureBoot": false
+                            },
+                            "tags": [],
+                            "taints": [],
+                            "workloadMetadataConfig": null
+                        },
+                        "nodeLocations": [],
+                        "nodePools": [
+                            {
+                                "autoscaling": null,
+                                "initialNodeCount": 2,
+                                "instanceGroupUrls": [
+                                    "https://www.googleapis.com/compute/v1/projects/devops-gcp-luifa/zones/us-west1-a/instanceGroupManagers/gke-helloworld-eb5f7b8-default-pool-adedc7a0-grp"
+                                ],
+                                "management": {
+                                    "autoRepair": true,
+                                    "autoUpgrade": true
+                                },
+                                "maxPodsPerNode": 0,
+                                "name": "default-pool",
+                                "namePrefix": "",
+                                "nodeConfig": {
+                                    "bootDiskKmsKey": "",
+                                    "diskSizeGb": 100,
+                                    "diskType": "pd-standard",
+                                    "guestAccelerators": [],
+                                    "imageType": "COS",
+                                    "kubeletConfig": null,
+                                    "labels": {},
+                                    "linuxNodeConfig": null,
+                                    "localSsdCount": 0,
+                                    "machineType": "n1-standard-1",
+                                    "metadata": {
+                                        "disable-legacy-endpoints": "true"
+                                    },
+                                    "minCpuPlatform": "",
+                                    "oauthScopes": [
+                                        "https://www.googleapis.com/auth/monitoring",
+                                        "https://www.googleapis.com/auth/devstorage.read_only",
+                                        "https://www.googleapis.com/auth/logging.write",
+                                        "https://www.googleapis.com/auth/compute"
+                                    ],
+                                    "preemptible": false,
+                                    "sandboxConfig": null,
+                                    "serviceAccount": "default",
+                                    "shieldedInstanceConfig": {
+                                        "enableIntegrityMonitoring": true,
+                                        "enableSecureBoot": false
+                                    },
+                                    "tags": [],
+                                    "taints": [],
+                                    "workloadMetadataConfig": null
+                                },
+                                "nodeCount": 2,
+                                "nodeLocations": [
+                                    "us-west1-a"
+                                ],
+                                "upgradeSettings": {
+                                    "maxSurge": 1,
+                                    "maxUnavailable": 0
+                                },
+                                "version": "1.18.16-gke.300"
+                            }
+                        ],
+                        "nodeVersion": "1.18.16-gke.300",
+                        "notificationConfig": {
+                            "pubsub": {
+                                "enabled": false,
+                                "topic": ""
+                            }
+                        },
+                        "podSecurityPolicyConfig": {
+                            "enabled": false
+                        },
+                        "privateClusterConfig": null,
+                        "project": "devops-gcp-luifa",
+                        "releaseChannel": {
+                            "channel": "UNSPECIFIED"
+                        },
+                        "resourceLabels": {},
+                        "resourceUsageExportConfig": null,
+                        "subnetwork": "projects/devops-gcp-luifa/regions/us-west1/subnetworks/default",
+                        "verticalPodAutoscaling": null,
+                        "workloadIdentityConfig": null
+                    },
+                    "outputs": {
+                        "__meta": "{\"e2bfb730-ecaa-11e6-8f88-34363bc7c4c0\":{\"create\":2400000000000,\"delete\":2400000000000,\"read\":2400000000000,\"update\":3600000000000},\"schema_version\":\"1\"}",
+                        "addonsConfig": {
+                            "cloudrunConfig": null,
+                            "configConnectorConfig": null,
+                            "dnsCacheConfig": null,
+                            "gcePersistentDiskCsiDriverConfig": {
+                                "enabled": true
+                            },
+                            "horizontalPodAutoscaling": null,
+                            "httpLoadBalancing": null,
+                            "istioConfig": null,
+                            "kalmConfig": null,
+                            "networkPolicyConfig": {
+                                "disabled": true
+                            }
+                        },
+                        "authenticatorGroupsConfig": null,
+                        "clusterAutoscaling": {
+                            "autoProvisioningDefaults": null,
+                            "autoscalingProfile": "BALANCED",
+                            "enabled": false,
+                            "resourceLimits": []
+                        },
+                        "clusterIpv4Cidr": "10.68.0.0/14",
+                        "clusterTelemetry": {
+                            "type": "ENABLED"
+                        },
+                        "confidentialNodes": null,
+                        "databaseEncryption": {
+                            "keyName": "",
+                            "state": "DECRYPTED"
+                        },
+                        "datapathProvider": "",
+                        "defaultSnatStatus": {
+                            "disabled": false
+                        },
+                        "description": "",
+                        "enableBinaryAuthorization": false,
+                        "enableIntranodeVisibility": false,
+                        "enableKubernetesAlpha": false,
+                        "enableLegacyAbac": false,
+                        "enableShieldedNodes": false,
+                        "enableTpu": false,
+                        "endpoint": "34.82.181.28",
+                        "id": "projects/devops-gcp-luifa/locations/us-west1-a/clusters/helloworld-eb5f7b8",
+                        "initialNodeCount": 2,
+                        "instanceGroupUrls": [
+                            "https://www.googleapis.com/compute/beta/projects/devops-gcp-luifa/zones/us-west1-a/instanceGroups/gke-helloworld-eb5f7b8-default-pool-adedc7a0-grp"
+                        ],
+                        "ipAllocationPolicy": null,
+                        "labelFingerprint": "a9dc16a7",
+                        "location": "us-west1-a",
+                        "loggingService": "logging.googleapis.com/kubernetes",
+                        "maintenancePolicy": null,
+                        "masterAuth": {
+                            "clientCertificate": "",
+                            "clientCertificateConfig": {
+                                "issueClientCertificate": false
+                            },
+                            "clientKey": {
+                                "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                                "ciphertext": "v1:KRm4vOEJbVGvlWsv:hLIdHhNWX0lkknMf7igEa+kv"
+                            },
+                            "clusterCaCertificate": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLekNDQWhPZ0F3SUJBZ0lSQU94V0NOMUtRMkJYMFBOQ1pQb2cydFF3RFFZSktvWklodmNOQVFFTEJRQXcKTHpFdE1Dc0dBMVVFQXhNa05XTTJaVFZsWlRjdE9EaGpZUzAwWVdSaUxUazNNbVF0WkRnMU5EWTJaV0ZpWVRjegpNQjRYRFRJeE1ETXdNakUxTkRjMU0xb1hEVEkyTURNd01URTJORGMxTTFvd0x6RXRNQ3NHQTFVRUF4TWtOV00yClpUVmxaVGN0T0RoallTMDBZV1JpTFRrM01tUXRaRGcxTkRZMlpXRmlZVGN6TUlJQklqQU5CZ2txaGtpRzl3MEIKQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBeUFKZHF6U0JUeVRsa0hTREFKelVVd21ZTkRzRFlWaG1URk83aFFsZApnMS9XQXN6eEFTeFFqaExGcEhMWGZNckl1RjA2NVVucHJyeG51cUJoNXFSTnVvcEI0NmtsbEhYOE9pdkRNamViClZxTjNiNGJveVVjTlB4T0lpN1cyTExuTklnTXNQVkgvSGsrM1pZbURicE1IaC8wNEZOcjY5NklKb3F1NU1GT3AKMFhGdEF3RXFnaVhpamorM2I2amN3M0IwbXlxbW9zVzhkaWNEdlZJdTNPOHdSUnprdkJFTEZKZ3V1cDZNOVlpawp2bFVOd1BTdHhNdjU3Q1JjaTdQS245RXBZQTFrOGpHT2xJaXdyWGtNWFphMTRuaXB4c2QySXlqK1UramdZTnhuCitqeEFoZHI2M3ZRcFZvR1BFVkVNM0ZIcklGL1l2Zkswckw4WXFqSlVzM0R2MXdJREFRQUJvMEl3UURBT0JnTlYKSFE4QkFmOEVCQU1DQWdRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVS9XQmI5TGpQQjJzYgp0MWIySm9qSFZoUTU2WDR3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUVoK0ZyQkpkM3UvZU1WWCtUb2xtN3Z3Ck9DbGR1eVJWaGxhRlFWc1M0SnNDZm45TzlmbFJFVXlzN1ZHTzNvT2ErSVhtK2JKeHZPUXJGTVJ5c3ZKMVJMOEwKTThKYjI0cWxrUXhhcXEzR0dlTmR4WjJ6Q0xucXp5TEhoUE55QUxMSGRYaVltbk9KaGRxN2NkWlFsT2xVU0JDaAowaFVTdEgzTVdKYUdzUEFVSGdxTXRYbnlTSjYwMkVzblJiMTZ5cFdoYWZZcGNZWWcxb1RxbDVHb2QzbG1ZZWFPCk9PQkh1TXVDcW9WRStlTnpuaDlaTkZha3R2RlNTU0dybXRyZWVXdmdaY0VXOUdRRzdncFFKcjNETDd0c0w5TG8KTEdtN3Z6K01PYzdCMVp0N2xnNUpIS1VMVFlYSGhMbGVraFU3cnBqeXdjei9tRk1qZzNVRG9GNWl4elIrZmQ4PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==",
+                            "password": {
+                                "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                                "ciphertext": "v1:G8DG26KJNxNkDOtg:bv1wWKqWB6WgOrK8hAnBjIl0"
+                            },
+                            "username": ""
+                        },
+                        "masterAuthorizedNetworksConfig": null,
+                        "masterVersion": "1.18.16-gke.300",
+                        "minMasterVersion": "1.18.16-gke.300",
+                        "monitoringService": "monitoring.googleapis.com/kubernetes",
+                        "name": "helloworld-eb5f7b8",
+                        "network": "projects/devops-gcp-luifa/global/networks/default",
+                        "networkPolicy": {
+                            "enabled": false,
+                            "provider": "PROVIDER_UNSPECIFIED"
+                        },
+                        "networkingMode": "ROUTES",
+                        "nodeConfig": {
+                            "bootDiskKmsKey": "",
+                            "diskSizeGb": 100,
+                            "diskType": "pd-standard",
+                            "guestAccelerators": [],
+                            "imageType": "COS",
+                            "kubeletConfig": null,
+                            "labels": {},
+                            "linuxNodeConfig": null,
+                            "localSsdCount": 0,
+                            "machineType": "n1-standard-1",
+                            "metadata": {
+                                "disable-legacy-endpoints": "true"
+                            },
+                            "minCpuPlatform": "",
+                            "oauthScopes": [
+                                "https://www.googleapis.com/auth/monitoring",
+                                "https://www.googleapis.com/auth/devstorage.read_only",
+                                "https://www.googleapis.com/auth/logging.write",
+                                "https://www.googleapis.com/auth/compute"
+                            ],
+                            "preemptible": false,
+                            "sandboxConfig": null,
+                            "serviceAccount": "default",
+                            "shieldedInstanceConfig": {
+                                "enableIntegrityMonitoring": true,
+                                "enableSecureBoot": false
+                            },
+                            "tags": [],
+                            "taints": [],
+                            "workloadMetadataConfig": null
+                        },
+                        "nodeLocations": [],
+                        "nodePools": [
+                            {
+                                "autoscaling": null,
+                                "initialNodeCount": 2,
+                                "instanceGroupUrls": [
+                                    "https://www.googleapis.com/compute/v1/projects/devops-gcp-luifa/zones/us-west1-a/instanceGroupManagers/gke-helloworld-eb5f7b8-default-pool-adedc7a0-grp"
+                                ],
+                                "management": {
+                                    "autoRepair": true,
+                                    "autoUpgrade": true
+                                },
+                                "maxPodsPerNode": 0,
+                                "name": "default-pool",
+                                "namePrefix": "",
+                                "nodeConfig": {
+                                    "bootDiskKmsKey": "",
+                                    "diskSizeGb": 100,
+                                    "diskType": "pd-standard",
+                                    "guestAccelerators": [],
+                                    "imageType": "COS",
+                                    "kubeletConfig": null,
+                                    "labels": {},
+                                    "linuxNodeConfig": null,
+                                    "localSsdCount": 0,
+                                    "machineType": "n1-standard-1",
+                                    "metadata": {
+                                        "disable-legacy-endpoints": "true"
+                                    },
+                                    "minCpuPlatform": "",
+                                    "oauthScopes": [
+                                        "https://www.googleapis.com/auth/monitoring",
+                                        "https://www.googleapis.com/auth/devstorage.read_only",
+                                        "https://www.googleapis.com/auth/logging.write",
+                                        "https://www.googleapis.com/auth/compute"
+                                    ],
+                                    "preemptible": false,
+                                    "sandboxConfig": null,
+                                    "serviceAccount": "default",
+                                    "shieldedInstanceConfig": {
+                                        "enableIntegrityMonitoring": true,
+                                        "enableSecureBoot": false
+                                    },
+                                    "tags": [],
+                                    "taints": [],
+                                    "workloadMetadataConfig": null
+                                },
+                                "nodeCount": 2,
+                                "nodeLocations": [
+                                    "us-west1-a"
+                                ],
+                                "upgradeSettings": {
+                                    "maxSurge": 1,
+                                    "maxUnavailable": 0
+                                },
+                                "version": "1.18.16-gke.300"
+                            }
+                        ],
+                        "nodeVersion": "1.18.16-gke.300",
+                        "notificationConfig": {
+                            "pubsub": {
+                                "enabled": false,
+                                "topic": ""
+                            }
+                        },
+                        "podSecurityPolicyConfig": {
+                            "enabled": false
+                        },
+                        "privateClusterConfig": null,
+                        "project": "devops-gcp-luifa",
+                        "releaseChannel": {
+                            "channel": "UNSPECIFIED"
+                        },
+                        "resourceLabels": {},
+                        "resourceUsageExportConfig": null,
+                        "selfLink": "https://container.googleapis.com/v1beta1/projects/devops-gcp-luifa/zones/us-west1-a/clusters/helloworld-eb5f7b8",
+                        "servicesIpv4Cidr": "10.71.240.0/20",
+                        "subnetwork": "projects/devops-gcp-luifa/regions/us-west1/subnetworks/default",
+                        "tpuIpv4CidrBlock": "",
+                        "verticalPodAutoscaling": null,
+                        "workloadIdentityConfig": null
+                    },
+                    "parent": "urn:pulumi:dev::gcp::pulumi:pulumi:Stack::gcp-dev",
+                    "provider": "urn:pulumi:dev::gcp::pulumi:providers:gcp::default_4_13_0::dfdb0c90-6e1c-4231-9560-109d7e6baceb",
+                    "propertyDependencies": {
+                        "initialNodeCount": null,
+                        "minMasterVersion": null,
+                        "nodeConfig": null,
+                        "nodeVersion": null
+                    }
+                },
+                {
+                    "urn": "urn:pulumi:dev::gcp::pulumi:providers:kubernetes::helloworld",
+                    "custom": true,
+                    "id": "7524c1b5-5b1f-4497-81f7-402745d59a74",
+                    "type": "pulumi:providers:kubernetes",
+                    "inputs": {
+                        "kubeconfig": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:tK1vQyATN0zU5fRR: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"
+                        },
+                        "version": "2.8.2"
+                    },
+                    "outputs": {
+                        "kubeconfig": {
+                            "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                            "ciphertext": "v1:Oj1+ic5C2KPLI8FT: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"
+                        },
+                        "version": "2.8.2"
+                    },
+                    "parent": "urn:pulumi:dev::gcp::pulumi:pulumi:Stack::gcp-dev",
+                    "dependencies": [
+                        "urn:pulumi:dev::gcp::gcp:container/cluster:Cluster::helloworld"
+                    ],
+                    "propertyDependencies": {
+                        "kubeconfig": [
+                            "urn:pulumi:dev::gcp::gcp:container/cluster:Cluster::helloworld"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

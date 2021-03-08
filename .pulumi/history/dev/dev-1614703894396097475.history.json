@@ -1,0 +1,19 @@
+{
+    "kind": "update",
+    "startTime": 1614703669,
+    "message": "",
+    "environment": {
+        "exec.kind": "cli"
+    },
+    "config": {
+        "gcp:project": "devops-gcp-luifa",
+        "gcp:zone": "us-west1-a"
+    },
+    "version": 0,
+    "result": "failed",
+    "endTime": 1614703894,
+    "resourceChanges": {
+        "create": 2,
+        "same": 1
+    }
+}
