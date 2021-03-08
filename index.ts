@@ -2,8 +2,16 @@ import * as k8s from "@pulumi/kubernetes";
 import * as pulumi from "@pulumi/pulumi";
 import * as gcp from "@pulumi/gcp";
 
-const name = "helloworld";
+const name = 'helloworld';
+const config = new pulumi.Config();
+//const openAPI = config.requireObject<any>('openAPI');
+const openAPI = '{"swagger": "2.0","info": {"description": "A simple Google Cloud Endpoints API example.","title": "Endpoints Example","version": "1.0.0"},"host": "helloword.endpoints.devops-gcp-luifa.cloud.goog"}';
 
+// Create Cloud Endpoint Service
+
+const ceSvc = new gcp.endpoints.Service("helloworld", {serviceName: "helloword.endpoints.devops-gcp-luifa.cloud.goog",
+	openapiConfig: openAPI}); 
+		
 // Create a GKE cluster
 const engineVersion = gcp.container.getEngineVersions().then(v => v.latestMasterVersion);
 const cluster = new gcp.container.Cluster(name, {
@@ -86,6 +94,17 @@ const deployment = new k8s.apps.v1.Deployment(name,
                 },
                 spec: {
                     containers: [
+			{
+		            name: "esp",
+			    image: "gcr.io/endpoints-release/endpoints-runtime:1",
+		            args: [
+				    "--http_port", "8081",
+				    "--backend", "127.0.0.1:80",
+				    "--service", "hellowo  rd.endpoints.devops-gcp-luifa.cloud.goog",
+				    "--rollout_strategy", "managed"
+                                  ],
+		            ports: [{ containerPort: 8081 }]
+			},
                         {
                             name: name,
                             image: "nginx:latest",
@@ -113,7 +132,12 @@ const service = new k8s.core.v1.Service(name,
         },
         spec: {
             type: "LoadBalancer",
-            ports: [{ port: 80, targetPort: "http" }],
+            ports: [{ 
+			    port: 80, 
+			    targetPort: 8081,
+		            protocol: "TCP",
+		            name: "http"
+		    }],
             selector: appLabels,
         },
     },
